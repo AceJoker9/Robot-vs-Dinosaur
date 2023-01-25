@@ -1,3 +1,2 @@
-Class Weapon: 
-def __init__(self): 
-    
+class Weapon: 
+def __init__(self):

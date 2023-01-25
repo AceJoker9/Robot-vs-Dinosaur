@@ -1,4 +1,2 @@
-Class Battlefield: 
+class Battlefied:
 def __init__(self): 
-
-    
