@@ -1,7 +1,8 @@
 #Creating commit to ensure we're doing this right 
 
 class Robot: 
-    def__init__(self, name, attack_power)
+    def__init__(self, name,):
     self.name = name 
-    self.attack_power = attack_power
-    
+
+
+
