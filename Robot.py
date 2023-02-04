@@ -1,15 +1,11 @@
 #Creating commit to ensure we're doing this right 
-
+from Weapon import Weapon
 class Robot: 
-    from Weapon import weapon
     def __init__(self, name):
         self.name = name 
         self.health = 1000
+        self.active_weapon = Weapon("laser beam", 50)
         
-        def attack(self.dinosaur)
-
-
-
-
-
+    def attack(self, dinosaur):
+        pass
 
