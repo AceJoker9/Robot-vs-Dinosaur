@@ -1,10 +1,12 @@
 #Creating commit to ensure we're doing this right 
 
 class Robot: 
+    from Weapon import weapon
     def __init__(self, name):
         self.name = name 
-        self.robot_1health = 1000
-        self.laser_beam = 100
+        self.health = 1000
+        
+        def attack(self.dinosaur)
 
 
 

@@ -1,10 +1,16 @@
 class Battlefield:
+    from Dinosaur import Dinosaur
+    from Robot import robot
     def __init__(self):
-        # inst Robot
-        # inst Dino
+        self.Dinosaur = Dinosaur("Dino", 50)
+        self.Robot = Robot("Robo") 
+        
+        
         pass
 
     def run_game(self):
+        self.dinosar.attack(self.robot)
+        
         
         pass
 
