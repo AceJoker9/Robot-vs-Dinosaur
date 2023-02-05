@@ -1,13 +1,14 @@
 class Dinosaur:
-    def __init__(self, name, attack_power):
+    def __init__(self, name, attack_power, bar):
         self.name = name
-        self.attack_power = attack_power
-        self.health = 1000
+        self.attack_power = 300
+        self.bar = 1000
 
-    def attack(self,robot):
-        robot.health -= self.attack_power
-        print(robot.health) 
-        pass
+
+Dino_1 = Dinosaur('rex', 200, 1000)
+
+print(Dino_1.bar)
+        
     
 
         
