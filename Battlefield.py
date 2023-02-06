@@ -1,32 +1,31 @@
 from Dinosaur import Dinosaur
 from Robot import Robot
 
-class Battlefield:
+class Battlefield(Robot):
     def __init__(self):
-        super(Robot.__init__)
-        super(Dinosaur.__init__)
-        self.dinosaur = Dinosaur()
-        self.robot = Robot() 
+        super(Robot). __init__
+
+     
+#due to me already being slightly behind on assignments, What i will do is create everything from this file only. the methods from the other classes aren't being inheritent onto this file. Yes i can add the Class itself, but i cant access any methods. So all the methods and completion on this assignment will all be done on this one file.      
+dr_guru = Robot('guru', 500, 'laserbeam')
+
+def run_game():
+
+
         
 
+display_welcome = ("welcome to the match")
+print(display_welcome)
 
-    def run_game():
-        first_attack = Dinosaur.dino_attack
-    print(Robot.health)
-        
-
-    display_welcome = ("welcome to the match")
-    print(display_welcome)
-
-    print("still testing")
+    
 
 
 
-    def battle_phase(self):
+def battle_phase(self):
         
         pass
 
-    def display_winner(self):
+def display_winner(self):
         
         pass
 

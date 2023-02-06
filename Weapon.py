@@ -4,10 +4,7 @@ class Weapon:
         self.attack_power = 125
         self.active_weapon = 'blue'
 
-gun_2 = Weapon('ak', 125, 'blue')      
-print(gun_2.attack_power)
 
-print(gun_2.active_weapon)
 
 
 

@@ -8,13 +8,13 @@ class Robot(Dinosaur, Weapon):
         self.health = 1000
         self.active_weapon = 300
 
+#creating two objects one from each class. Dr.dealth is from Robot Class and  Iron hide is from dinosaur class
 dr_dealth = Robot('smoke',450,'blue')
 iron_hide = Dinosaur('iron_hide', 250, 1000) 
 
 
 
-print(iron_hide.attack_power)
-
+#creating a variable to use for a method to test code 
 arrow_2 = dr_dealth.health - iron_hide.attack_power
 
 def testing_shot():
@@ -23,17 +23,28 @@ def testing_shot():
     return(arrow_2)
 
 
+
+#Creating variable to test method 
 slash = iron_hide.bar - dr_dealth.active_weapon
 
 
 def shits_giggles():
    slash = iron_hide.bar - dr_dealth.active_weapon
-   print(slash)
-   return(slash)
+   dino_newbar = slash
+   print(dino_newbar)
+   return(dino_newbar)
 
-testing_shot()
 
-shits_giggles()
+
+
+   
+
+
+
+
+
+
+
 
 
 

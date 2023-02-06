@@ -5,9 +5,6 @@ class Dinosaur:
         self.bar = 1000
 
 
-Dino_1 = Dinosaur('rex', 200, 1000)
-
-print(Dino_1.bar)
         
     
 
